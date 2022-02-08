@@ -1,0 +1,145 @@
+.header-control {
+    /* background-image: url('../../assets/DickBackground.png'); */
+    /* background-color: #172A55; */
+    /* this can be changed to header-back or dickbackground */
+    /* background-color: white; */
+    background-image: url("../../assets/toiletbackground.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 120px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+@font-face {
+    font-family: bruh;
+    src: url(/src/Bubble-Mint.ttf);
+}
+
+.header-control .navbar {
+    width: 60%;
+    background-image: url("../../assets/btile.png");
+    margin-top: 0px;
+    padding-top: 0px;
+    border-radius: 20px;
+    border: 10px solid #000051;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .nav-link {
+    transition-duration: .3s;
+    color: #FFEBC1 !important;
+    /* text-shadow: 0px 0px 0px white; */
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px black;
+    font-family: bruh;
+    /* background: -webkit-linear-gradient(#FFC17E, #FFC17E); */
+    /* text-shadow: 0px 0px 10px black; */
+}
+
+@font-face {
+    font-family: bruh;
+    src: url(/src/Bubble-Mint.ttf);
+}
+
+.navbar-nav .nav-link:hover {
+    transition-duration: .15s;
+    color: white !important;
+    text-shadow: 2px 2px 2px black;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h1 {
+    font-size: 51px;
+    font-family: newfonter;
+    color: black;
+    /* font-style: italic; */
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 900;
+    text-align: center;
+    /* background-color: #6D3612; */
+    /* padding: 25px; */
+    /* border: solid 10px black;
+    border-radius: 20px; */
+}
+
+.header-nav {
+    position: absolute;
+    top: 20px;
+    max-width: 1200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    margin-right: 20px;
+    color: rgb(184, 40, 40);
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-item :hover {
+    color: blue;
+}
+
+.thePicture {
+    height: 0px;
+    border-radius: 0px;
+    padding: 0px;
+    background-color: #FF9859;
+}
+
+@media (min-width: 767px) {
+    .header-control {
+        background-image: url("../../assets/toiletbackground.png");
+        /* this can be changed to header-back or dickbackground */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        height: 580px;
+        background-repeat: none;
+        padding-top: 35px;
+    }
+
+    .thePicture {
+        height: 333px;
+        width: 1000px;
+        border: 10px solid #000051;
+        border-radius: 20px;
+        background-color: #a14912;
+    }
+
+    .header-control .navbar {
+        width: 70%;
+        background-image: url(../../assets/btile.png); 
+        background-size: cover;
+        border: 10px solid #000051;
+        margin-top: 0px;
+        padding-top: 10px;
+        padding-left: 10px;
+        border-radius: 20px;
+    }
+}

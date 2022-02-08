@@ -1,0 +1,33 @@
+.team-control header {
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFEBC1;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: "normal";
+    font-family: bruh;
+}
+
+@font-face {
+    font-family: bruh;
+    src: url(../../Bubble-Mint.ttf);
+}
+
+.team-control {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-image: url(../../assets/beach.png);
+    background-size: cover;
+    /* border-top: 5px solid #68c2c5;
+    border-bottom: 10px solid #ffffff; */
+}
+
+.team-control header span {
+    color: #000000;
+    font-style: "normal"
+}
+
+.team-control-card{
+    justify-content: center;
+    text-align: center
+}
