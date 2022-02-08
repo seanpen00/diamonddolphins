@@ -17,7 +17,7 @@
     padding-bottom: 60px;
     padding-top: 60px;
     background-image: url(../../assets/beach.png);
-    background-size: cover;
+    background-position: 0% 80%;
     /* border-top: 5px solid #68c2c5;
     border-bottom: 10px solid #ffffff; */
 }

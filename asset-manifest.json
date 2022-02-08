@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.eba0e1d6.chunk.css",
-    "main.js": "/static/js/main.f6c103e1.chunk.js",
-    "main.js.map": "/static/js/main.f6c103e1.chunk.js.map",
+    "main.css": "/static/css/main.deea3e67.chunk.css",
+    "main.js": "/static/js/main.64c61fc2.chunk.js",
+    "main.js.map": "/static/js/main.64c61fc2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b14c0229.js",
     "runtime-main.js.map": "/static/js/runtime-main.b14c0229.js.map",
     "static/css/2.71f93bf9.chunk.css": "/static/css/2.71f93bf9.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.f7b976ef.chunk.js.map": "/static/js/3.f7b976ef.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.71f93bf9.chunk.css.map": "/static/css/2.71f93bf9.chunk.css.map",
-    "static/css/main.eba0e1d6.chunk.css.map": "/static/css/main.eba0e1d6.chunk.css.map",
+    "static/css/main.deea3e67.chunk.css.map": "/static/css/main.deea3e67.chunk.css.map",
     "static/js/2.3b37c382.chunk.js.LICENSE.txt": "/static/js/2.3b37c382.chunk.js.LICENSE.txt",
     "static/media/faqmapitem.css": "/static/media/Bubble-Mint.1684ef54.ttf",
     "static/media/Chibi Labs.1df3a3d3.jpeg": "/static/media/Chibi Labs.1df3a3d3.jpeg",
@@ -21,6 +21,7 @@
     "static/media/about.css": "/static/media/ReporterRegular.d804114c.ttf",
     "static/media/Roadmap.7d8c759b.mp4": "/static/media/Roadmap.7d8c759b.mp4",
     "static/media/newteam.css": "/static/media/StrangerThings-Regular.20413700.ttf",
+    "static/media/alina.ce152a5f.jpg": "/static/media/alina.ce152a5f.jpg",
     "static/media/meet.css": "/static/media/background.55d5b022.png",
     "static/media/team.css": "/static/media/beach.6985fd4f.png",
     "static/media/boy1.fa25a9cc.png": "/static/media/boy1.fa25a9cc.png",
@@ -40,8 +41,12 @@
     "static/media/item1.9e50bd20.png": "/static/media/item1.9e50bd20.png",
     "static/media/item2.9e50bd20.png": "/static/media/item2.9e50bd20.png",
     "static/media/item3.9e50bd20.png": "/static/media/item3.9e50bd20.png",
+    "static/media/jon.5d794924.jpg": "/static/media/jon.5d794924.jpg",
+    "static/media/mia.3ce71c38.jpg": "/static/media/mia.3ce71c38.jpg",
+    "static/media/newergif.9f0f30e6.gif": "/static/media/newergif.9f0f30e6.gif",
     "static/media/newteamMember.css": "/static/media/newfont.7c5dab01.ttf",
     "static/media/owl.b740aad4.png": "/static/media/owl.b740aad4.png",
+    "static/media/sean.0f094192.png": "/static/media/sean.0f094192.png",
     "static/media/mint.css": "/static/media/toiletbackground.3d2b5175.png",
     "static/media/toiletbanner.fb81abce.jpg": "/static/media/toiletbanner.fb81abce.jpg",
     "static/media/toiletemblem.5f84ad90.png": "/static/media/toiletemblem.5f84ad90.png"
@@ -50,7 +55,7 @@
     "static/js/runtime-main.b14c0229.js",
     "static/css/2.71f93bf9.chunk.css",
     "static/js/2.3b37c382.chunk.js",
-    "static/css/main.eba0e1d6.chunk.css",
-    "static/js/main.f6c103e1.chunk.js"
+    "static/css/main.deea3e67.chunk.css",
+    "static/js/main.64c61fc2.chunk.js"
   ]
 }

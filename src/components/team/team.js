@@ -5,10 +5,10 @@ import { Row, Col, Container } from "react-bootstrap";
 import './team.css';
 
 //import image assets
-import a from '../../assets/toiletemblem.png';
-import b from '../../assets/toiletemblem.png';
-import c from '../../assets/toiletemblem.png';
-import d from '../../assets/toiletemblem.png';
+import a from '../../assets/jon.jpg';
+import b from '../../assets/alina.jpg';
+import c from '../../assets/sean.png';
+import d from '../../assets/mia.jpg';
 import e from '../../assets/toiletemblem.png';
 import f from '../../assets/toiletemblem.png';
 import g from '../../assets/toiletemblem.png';
@@ -27,23 +27,23 @@ class Team extends React.Component {
             teams: [
                 {
                     image: a,
-                    title: 'Job',
-                    name: "Name"
+                    title: 'Founder',
+                    name: "Jonathan Vaz"
                 },
                 {
-                    image: a,
-                    title: 'Job',
-                    name: "Name"
+                    image: b,
+                    title: 'Artist',
+                    name: "Alina Ivaneca"
                 },
                 {
-                    image: a,
-                    title: 'Job',
-                    name: "Name"
+                    image: c,
+                    title: 'Developer',
+                    name: "Sean Pentiboyina"
                 },
                 {
-                    image: a,
-                    title: 'Job',
-                    name: "Name"
+                    image: d,
+                    title: 'Marketing',
+                    name: "Mia Martinez"
                 },
                 {
                     image: a,
@@ -92,46 +92,32 @@ class Team extends React.Component {
                         </Col>
                     </Row> */}
                     <Row>
-                        <Col className="team-control-card" md={4} xs={12} >
+                        <Col className="team-control-card" md={3} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[0].image}
                                 title={this.state.teams[0].title}
                                 name={this.state.teams[0].name}
                             />
                         </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
+                        <Col className="team-control-card" md={3} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[1].image}
                                 title={this.state.teams[1].title}
                                 name={this.state.teams[1].name}
                             />
                         </Col>
-                        <Col className="" md={4} xs={12} >
+                        <Col className="" md={3} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[2].image}
                                 title={this.state.teams[2].title}
                                 name={this.state.teams[2].name}
                             />
                         </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
+                        <Col className="team-control-card" md={3} xs={12} >
                             <TeamMember
                                 imageUrl={this.state.teams[3].image}
                                 title={this.state.teams[3].title}
                                 name={this.state.teams[3].name}
-                            />
-                        </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
-                            <TeamMember
-                                imageUrl={this.state.teams[4].image}
-                                title={this.state.teams[4].title}
-                                name={this.state.teams[4].name}
-                            />
-                        </Col>
-                        <Col className="team-control-card" md={4} xs={12} >
-                            <TeamMember
-                                imageUrl={this.state.teams[5].image}
-                                title={this.state.teams[5].title}
-                                name={this.state.teams[5].name}
                             />
                         </Col>
                     </Row>

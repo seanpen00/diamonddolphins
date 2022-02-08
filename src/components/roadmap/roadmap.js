@@ -16,24 +16,29 @@ class RoadMap extends React.Component {
     this.state = {
       roadmaps: [
         {
-          tag: "25%",
+          tag: "0%",
           title: "Phase 1",
-          content: "Lorem ipsum. Lorem ipsum decet lorem ipsum."
+          content: "Marketing campaigns fire up with the launch of the social media , website and discord. We will be spending $150,000 to let the world know the Diamond Dolphins club exist. We want to build a thriving community !"
+        },
+        {
+          tag: "25%",
+          title: "Phase 2",
+          content: "On the 8th of Feburary , we drop 7,777 Diamond Dolphins in the Ethereum Blockchain. 10% of every sold Dolphin goes to the Ocean Clean up Project! They rid the ocean of plastic and waste."
         },
         {
           tag: "50%",
-          title: "Phase 2",
-          content: "Lorem ipsum. Lorem ipsum decet lorem ipsum."
+          title: "Phase 3",
+          content: "Giveaway for holders 5 holders that mint the rarest dolphins the golden dolphins will each receive $5,000. Anyone who owns 3 or more diamond dolphins will be entered to win $25,000"
         },
         {
           tag: "75%",
-          title: "Phase 3",
-          content: "Lorem ipsum. Lorem ipsum decet lorem ipsum."
+          title: "Phase 4",
+          content: "Diamond Dolphins Miami takeover we will throw the greatest exclusive meet ups for our holders ! Where we will give away a Tesla Model 3 for one of our lucky holders on the contingency that all 7,777 Diamond Dolphins have been minted."
         },
         {
           tag: "100%",
-          title: "Phase 4",
-          content: "Lorem ipsum. Lorem ipsum decet lorem ipsum."}
+          title: "Phase 5",
+          content: "We wanted keep it a secret but it’s hard. We will tokenize this whole project generate 1 billion $Dolphin tokens which Diamond Dolphins holder will be airdrop free tokens the plan is to continue growing the community and helping clean the ocean. 5% transaction fee from buying and selling $Dolphin token plus individual donations are all added to the Clean the ocean Fund for the community to distribute as it sees fit."}
       ],
     };
   }
@@ -67,7 +72,7 @@ class RoadMap extends React.Component {
                     </p> */}
           {/* <img  className="roadimage"style={{border:"solid 5px black", borderRadius: 20}}src="https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/wood.png?raw=true" /> */}
           <Row style={{ paddingTop: 30 }}>
-            <Col style={{ color: "white" }}>
+            <Col style={{ color: "black" }}>
               {this.state.roadmaps.map((item, index) => {
                 return (
                   <RoadMapItem
