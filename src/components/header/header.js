@@ -41,7 +41,7 @@ class Header extends React.Component {
         <div className="header-control">
           <Navbar collapseOnSelect expand="lg">
             <Container>
-              <Navbar.Brand href="#home">
+              <Navbar.Brand>
                 <img
                   style={{
                     // border: "solid black 5px",
@@ -89,12 +89,12 @@ class Header extends React.Component {
                       }}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://discord.com"
+                      href="https://discord.gg/2nnur53xUJ"
                     >
                       {" "}
                       <BsDiscord size={32} />{" "}
                     </a>
-                    <a
+                    {/* <a
                       style={{
                         textDecoration: "none",
                         color: "black",
@@ -106,7 +106,7 @@ class Header extends React.Component {
                     >
                       {" "}
                       <BsInstagram size={32} />{" "}
-                    </a>
+                    </a> */}
                     <a
                       style={{
                         textDecoration: "none",
@@ -115,7 +115,7 @@ class Header extends React.Component {
                       }}
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://twitter.com/"
+                      href="https://mobile.twitter.com/ddolphinsnft"
                     >
                       {" "}
                       <BsTwitter size={32} />{" "}

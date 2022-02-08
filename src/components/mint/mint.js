@@ -37,9 +37,9 @@ function Mint() {
             // ********
             .send({
                 gasLimit: 285000 * _amount,
-                to: "0x7181d2038B849A18145eb153b8bEFC552e52c37A", // the address of your contract
+                to: "0x881018075d93573D581d129574CbFf3C632daAea", // the address of your contract
                 from: blockchain.account,
-                value: blockchain.web3.utils.toWei((0.027 * _amount).toString(), "ether"),
+                value: blockchain.web3.utils.toWei((0.1001 * _amount).toString(), "ether"),
             })
             .once("error", (err) => {
                 console.log(err);
@@ -48,7 +48,7 @@ function Mint() {
             })
             .then((receipt) => {
                 setFeedback(
-                    "Your BooCrew NFT has been successfully minted!"
+                    "Your Diamond Dolphin has been successfully minted!"
                 );
                 setClaimingNft(false);
                 dispatch(fetchData(blockchain.account));
@@ -103,10 +103,10 @@ function Mint() {
                                     <button className='ybutton'
                                         onClick={(e) => {
                                             console.log("--------")
-                                            // e.preventDefault();
-                                            // dispatch(connect());
-                                            // getData();
-                                        }}>COMING SOON</button>
+                                            e.preventDefault();
+                                            dispatch(connect());
+                                            getData();
+                                        }}>CONNECT</button>
                                     {blockchain.errorMsg !== "" ? (
                                         <div style={{ textAlign: "center", fontSize: 20, color: "white" }}>
                                             {blockchain.errorMsg}
