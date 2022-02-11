@@ -23,7 +23,7 @@ class RoadMap extends React.Component {
         {
           tag: "25%",
           title: "Phase 2",
-          content: "On the 8th of Feburary , we drop 7,777 Diamond Dolphins in the Ethereum Blockchain. 10% of every sold Dolphin goes to the Ocean Clean up Project! They rid the ocean of plastic and waste."
+          content: "On the 8th of Feburary , we drop 777 Diamond Dolphins in the Ethereum Blockchain. 10% of every sold Dolphin goes to the Ocean Clean up Project! They rid the ocean of plastic and waste."
         },
         {
           tag: "50%",
@@ -33,7 +33,7 @@ class RoadMap extends React.Component {
         {
           tag: "75%",
           title: "Phase 4",
-          content: "Diamond Dolphins Miami takeover we will throw the greatest exclusive meet ups for our holders ! Where we will give away a Tesla Model 3 for one of our lucky holders on the contingency that all 7,777 Diamond Dolphins have been minted."
+          content: "Diamond Dolphins Miami takeover we will throw the greatest exclusive meet ups for our holders ! Where we will give away a Tesla Model 3 for one of our lucky holders on the contingency that all 777 Diamond Dolphins have been minted."
         },
         {
           tag: "100%",

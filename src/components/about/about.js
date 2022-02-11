@@ -33,7 +33,7 @@ class About extends React.Component {
                 <p style={{maxWidth: 400, margin: "auto"}}>
                   <div style={{ textAlign: "center" }}>
                     <br />
-                    The Diamond Dolphins Club is 7,777 Dolphins swimming around the ethereum blockchain living happily and freely. We stand behind that a NFT project is only as strong as it’s community. <br/><br/>That is why Diamond Dolphins is centered around two major components. First building out community and second cleaning the ocean! <br/><br/>10% of lifetime royalties go to removing plastic out of the ocean! Donation will be made to the Ocean cleanup project <br/><br/><a href="https://theoceancleanup.com">Learn more about the Ocean Cleanup Project.</a>
+                    The Diamond Dolphins Club is 777 Dolphins swimming around the ethereum blockchain living happily and freely. We stand behind that a NFT project is only as strong as it’s community. <br/><br/>That is why Diamond Dolphins is centered around two major components. First building out community and second cleaning the ocean! <br/><br/>10% of lifetime royalties go to removing plastic out of the ocean! Donation will be made to the Ocean cleanup project <br/><br/><a href="https://theoceancleanup.com">Learn more about the Ocean Cleanup Project.</a>
                   </div>
                 </p>
 
